@@ -1,7 +1,5 @@
 My personal portfolio outlining my journey to become a Quant.
 
-[Check it out](https:\\raketic-ognjen.github.io) 👈
-
 ## Features
 
 - Light and dark mode
