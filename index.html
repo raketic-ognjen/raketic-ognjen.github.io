@@ -1,316 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ognjen Raketić - Personal portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ognjen Raketic - Profesional Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Ognjen Raketić, MEng" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Ognjen Raketić">Ognjen Raketić</h1>
-
-          <p class="title">Industrial & Software Engineer</p>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero1.png" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span class="name">Ognjen Raketić</span>
+                    a Technical Director
+                </h1>
+                <p>
+                    I bring elite-level expertise in operational efficiency, predictive reliability, and engineering leadership.
+                    Smart maintenance isn’t the future — it’s my standard.
+                </p>
+                <div class="btn-con">
+                    <a href="ognjen-raketic-maintenance-cv.pdf" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about">
+        <div class="main-title">
+            <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+        </div>
+        <div class="about-container">
+            <div class="left-about">
+                <h4>Information About me</h4>
+                <p>
+                    I’m Ognjen, a Technical Director and elite-level expert in maintenance engineering. 
+                    I specialize in lean systems, smart diagnostics, and operational reliability that transforms maintenance 
+                    into a strategic advantage. My work is where precision meets performance.
+                </p>
+                <div class="btn-con">
+                    <a href="ognjen-raketic-maintenance-cv.pdf" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:ognjen.raketic@gmail.com" class="contact-link">ognjen.raketic</a>
+            <div class="right-about">
+                <div class="about-item">
+                    <div class="abt-text">
+                      <p class="large-text">15+</p>
+                      <p class="small-text">Projects<br/>completed</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                      <p class="large-text">10+</p>
+                      <p class="small-text">Years of <br/>Experience</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                      <p class="large-text">2020 +</p>
+                      <p class="small-text">PhD Student <br/>Industrial Engineering and Management</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="abt-text">
+                      <p class="large-text">2020</p>
+                      <p class="small-text">Master's<br/>Innovation Engineering</p>
+                    </div>
+                </div>
             </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="about-stats">
+            <h4 class="stat-title">My skills</h4>
+            <div class="progress-bars">
+                <div class="progress-bar">
+                    <div class="prog-title">Smart Maintenance & Reliability Engineering</div>
+                    <div class="progress-con">
+                        <p class="prog text">85%</p>
+                        <div class="progress">
+                            <span class="c"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="prog-title">Lean Systems & Continuous Improvement</div>
+                    <div class="progress-con">
+                        <p class="prog text">90%</p>
+                        <div class="progress">
+                            <span class="cpp"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="prog-title">Technical Leadership & Team Development</div>
+                    <div class="progress-con">
+                        <p class="prog text">80%</p>
+                        <div class="progress">
+                            <span class="java"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="prog-title">Asset Management & Operational Strategy</div>
+                    <div class="progress-con">
+                        <p class="prog text">85%</p>
+                        <div class="progress">
+                            <span class="oop"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+381 61 577 5888" class="contact-link">+381 61 577 5888</a>
+        </div>
+        <h4 class="stat-title">My Timeline</h4>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2023 - Present</p>
+                <h5>Technical Director of Maintenance - <span>Vital Vrbas</span></h5>
+                <p>* Implemented Lean methodology to systematically identify and eliminate inefficiencies, leveraging Ishikawa diagrams for in-depth root cause analysis.  <br>* Achieved a 12% improvement in production within 6 months</p>
             </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p class="tl-duration">2019-2020</p>
+                <h5>Master's Degree - <span>in Innovation Engineering</span></h5>
+                <p>Faculty of Technical Sciences, <br> <p>Novi Sad</p></p>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">February 10, 1988</time>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <p class="tl-duration">2022 - 2023</p>
+                <h5>Consultant - <span>Furni Interiors</span></h5>
+                <p>* Achieved a 11% improvement in company performance, 
+                    met deadlines, increased end-user satisfaction, and enhanced accuracy and 
+                    efficiency in preparing customer quotes <br>* Developed a hybrid methodology integrating Lean and Scrum principles to enhance production efficiency and agility. </p>
             </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
+            <div class="timeline-item">
+                <div class="tl-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <p class="tl-duration">2015-2019</p>
+                <h5>Bachlelor's Degree- <span>in Industrial Engineering and Management</span></h5>
+                <p>School of Engineering Management,<br> Belgrade</p>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Vrbas, Novi Sad, Gornji Milanovac, Serbia</address>
+        </div>
+        </section>
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My work</span></h2>
             </div>
+            <p class="port-text">
+                Here is some of my work, i have done in various projects.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project1.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Zero Downtime Initiative: A TPM Rollout for a Critical Production Line</h3>
+                      <div class="icons">
+                         <a href="https://github.com/raketic-ognjen/zero-downtime-initiative" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div><div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Unlocking Equipment Reliability: MTTR & MTBF Analytics for Failure Reduction</h3>
+                      <div class="icons">
+                         <a href="https://github.com/raketic-ognjen/Unlocking-Equipment-Reliability" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div><div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project3.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Lean Maintenance Transformation: Eliminating the 8 Wastes with VSM and Kaizen</h3>
+                      <div class="icons">
+                         <a href="https://github.com/raketic-ognjen/Lean-maintenance" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project4.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>From Failure Modes to Strategy: A Reliability-Centered Maintenance (RCM) Blueprint</h3>
+                      <div class="icons">
+                         <a href="https://github.com/raketic-ognjen/Reliability-Centered-Maintenance-Blueprint" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project5.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Maintenance Performance Dashboard: Visualizing What Matters in Real Time</h3>
+                      <div class="icons">
+                         <a href="https://github.com/raketic-ognjen/Maintenance-Performance-Dashboard" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project6.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                      <h3>Yellow Belt Project for Six Sigma</h3>
+                      <div class="icons">
+                         <a href="https://github.com/Mishraji566/Resturant_Billing_System" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                         </a>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec4 games" id="games"></section>
+        <section class="section sec5 contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Get in <span>Touch</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me Here</h4>
+                        <p>
+                            I am available for freelance work. If you have any project that you want to get started, 
+                            think you need my help with something or just fancy saying hey, then get in touch.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Location: Vrbas, Serbia
+                                </div>
+                                   <p></p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    Email: ognjen.raketic@gmail.com
+                                </div>
+                                <p></p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>Mobile : +381615775888</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-europe"></i>
+                                  <p>  Speak: English, German, Serbian </p>
+                                </div>
+                        </div>
+                        <div class="contact-icons">
+                            <a href="https://www.linkedin.com/in/ognjen-raketic/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
 
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Home</button>
-          </li>
-        </ul>
-
-      </nav>
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm a Technical Director with over a decade of experience in maintenance and energetics, 
-            specializing in optimizing industrial systems through Lean and Scrum methodologies. 
-            My foundation in engineering, paired with a passion for strategic operations, 
-            has allowed me to lead impactful projects and deliver measurable results.
-          </p>
-
-          <p>
-            In recent years, I've immersed myself in the world of quantitative finance, 
-            where I apply my analytical mindset to explore portfolio robustness, financial modeling and machine learning. 
-            I thrive at the intersection of engineering and finance—where precision, innovation 
-            and data-driven insights create powerful outcomes.
-          </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="" class="main-btn">
+                                    <span class="btn-text">Download</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
-        <!--
-          - service
-        -->
+    </main>
 
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Industrial Engineering</h4>
-
-                <p class="service-item-text">
-                  Optimizing systems, processes, and performance through data-driven strategies.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Quantitative Finance</h4>
-
-                <p class="service-item-text">
-                  Specialized in ML-driven fixed income and robust portfolio models.
-                </p>
-              </div>
-
-            </li>
-
-                    </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="Industries">
-
-          <h3 class="h3 testimonials-title">Skills</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Computer Skills</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Python | R | MS Office | Linux Ubuntu | SolidWorks
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Engineering Skills</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Agile | Scrum | Lean | RCA | Statistics | <br>Critical Thiking | Math
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Soft Skills</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Communication | Team Management | Coaching | Time Management | Leadership
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Languages</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                  English B2 | German A2-B1 | Serbian C2
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-      </article>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <div class="controlls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-2 " data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3 " data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control control-4 " data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+    
 </body>
-
 </html>
